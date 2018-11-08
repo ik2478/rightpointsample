@@ -1,0 +1,137 @@
+body {
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  background-color: grey;
+  box-sizing: border-box; }
+
+.heading-secondary {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.col-sm-3-p {
+  font-size: 70px; }
+
+.col-sm-3 .heading-secondary {
+  border-bottom: 1px solid black;
+  padding-bottom: 25px; }
+
+.paragraph {
+  font-family: 'Open Sans', sans-serif; }
+
+.underline {
+  width: 50px;
+  border: 2px solid red; }
+
+.u-margin-bottom-small {
+  margin-bottom: 0.9rem; }
+
+.u-margin-bottom-smaller {
+  margin-bottom: 1px; }
+
+.u-margin-top-smaller {
+  margin-top: 46px; }
+
+.u-margin-top-p {
+  margin-top: -2vh; }
+
+.story-thumbnail {
+  position: relative; }
+  .story-thumbnail_caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    text-align: center;
+    opacity: 0;
+    transition: all 3s;
+    backface-visibility: hidden; }
+    .story-thumbnail_caption p {
+      color: white;
+      font-family: 'Courgette', cursive; }
+  .story-thumbnail:hover .story-thumbnail_caption {
+    transform: translate(-50%, -50%);
+    opacity: 1; }
+  .story-thumbnail:hover .story-thumbnail_img {
+    transition: all 3s;
+    transform: scale(1.1);
+    filter: blur(0.3rem) brightness(72%);
+    backface-visibility: hidden; }
+
+.row {
+  background-color: white; }
+
+.header-nav {
+  display: flex;
+  padding: 1.1rem;
+  height: 3.5rem;
+  position: relative; }
+  .header-nav_left {
+    border-width: 2px; }
+  .header-nav_right {
+    text-align: right;
+    color: green;
+    justify-content: flex-end; }
+
+.header {
+  position: relative; }
+
+.header-body {
+  height: 50vh;
+  background-image: url(../img/nature_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .header-body_block {
+    position: absolute;
+    top: 240px;
+    left: 50px; }
+  .header-body_1 {
+    color: white;
+    background-color: red;
+    display: inline-block;
+    width: 8rem;
+    height: 3rem;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    font-size: 40px; }
+  .header-body_2 {
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Merriweather', serif; }
+  .header-body_3 {
+    color: black;
+    background-color: white;
+    display: inline-block;
+    z-index: 1;
+    width: 500px;
+    height: 200px;
+    padding: 21px 40px;
+    border: 1px solid grey; }
+
+.button {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 20px;
+  font-size: 10px;
+  display: inline-block;
+  border-radius: 12px; }
+  .button-2 {
+    background-color: red;
+    color: white; }
+
+.section-about {
+  padding: 25rem 0;
+  margin-top: -27vh;
+  margin-bottom: -37vh; }
+
+.section-team {
+  margin-top: 20vh; }
+
+@media screen and (max-width: 600px) {
+  .col-sm-12-1 {
+    width: 100%; } }

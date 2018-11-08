@@ -1,0 +1,92 @@
+.row{
+  background-color: white;
+  
+}
+
+.header-nav{
+  display: flex;
+ 
+  padding: 1.1rem;
+  height:3.5rem;
+  position: relative;
+  &_left{
+    border-width: 2px;
+
+  }
+  &_right{
+    text-align: right;
+    color: green;
+    
+    justify-content: flex-end;
+    //position: absolute;
+    //left: 60rem;
+  }
+}
+.header{
+  position: relative;
+}
+.header-body{
+  height: 50vh;
+  &_block{
+    position: absolute;
+    top:240px;
+    left:50px
+  }
+  
+  background-image: url(../img/nature_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &_1{
+    color:white;
+    background-color: red;
+    display:inline-block;
+    width:8rem;
+    height: 3rem;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    
+    font-size: 40px;
+
+  }
+
+  &_2{
+    color:white;
+    font-size: 60px;
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Merriweather', serif;
+    
+    
+  }
+  &_3{
+    
+    color:black;
+    background-color: white;
+    display: inline-block;
+    z-index: 1;
+    width:500px;
+     height: 200px;
+     padding: 21px 40px;
+     border: 1px solid grey;
+    
+  }
+
+}
+
+.button{
+  text-transform: uppercase;
+  
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 10px;
+    display: inline-block; 
+    border-radius: 12px; 
+   &-2{
+     background-color: red;
+     color:white;
+     
+   }
+}
